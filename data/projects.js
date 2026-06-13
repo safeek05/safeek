@@ -6,7 +6,7 @@ export const projects = [
       'This portfolio — a fast, responsive site built with Next.js. Smooth scroll animations, semantic HTML, and a clean layout designed to convert visitors into clients.',
     tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
     demo: '#home',
-    github: 'https://github.com/safeek05',
+    github: 'https://github.com/safeek05/safeek',
     category: 'Web Development',
   },
   {

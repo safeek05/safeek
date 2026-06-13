@@ -135,16 +135,16 @@ export default function About() {
               </div>
 
               {/* Visual Mock Components */}
-              <div className="flex flex-col justify-center gap-2 bg-white border border-gray-200/60 p-4 rounded-xl shadow-sm sm:w-[220px] select-none" aria-hidden="true">
+              <div className="flex flex-col justify-center gap-2 bg-white border border-gray-200/60 p-4 rounded-xl shadow-sm sm:w-auto sm:min-w-[240px] select-none" aria-hidden="true">
                 <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                   <span className="w-2.5 h-2.5 rounded-full bg-red-400" />
                   <span className="w-16 h-2 bg-gray-100 rounded" />
                   <span className="w-8 h-3.5 bg-blue-100 text-[8px] text-blue-600 font-bold px-1 rounded flex items-center justify-center">v14.2</span>
                 </div>
                 <div className="space-y-1.5 pt-1.5">
-                  <div className="flex gap-1">
-                    <span className="w-16 h-4 bg-blue-600 text-white text-[8px] font-bold rounded flex items-center justify-center">Active Button</span>
-                    <span className="w-16 h-4 bg-gray-50 border border-gray-200 text-[8px] text-gray-500 font-medium rounded flex items-center justify-center hover:bg-gray-100">Hover Me</span>
+                  <div className="flex gap-1 flex-wrap">
+                    <span className="h-4 bg-blue-600 text-white text-[8px] font-bold px-3 rounded flex items-center justify-center whitespace-nowrap">Active Button</span>
+                    <span className="h-4 bg-gray-50 border border-gray-200 text-[8px] text-gray-500 font-medium px-3 rounded flex items-center justify-center hover:bg-gray-100 whitespace-nowrap">Hover Me</span>
                   </div>
                   <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
                     <div className="w-[85%] h-full bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full" />
