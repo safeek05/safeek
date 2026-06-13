@@ -35,7 +35,7 @@ export const projects = [
     description:
       'A modern agency website designed for business growth. Features service showcases, case studies, pricing plans, testimonials, and lead-generation focused design.',
     tech: ['React', 'JavaScript', 'Tailwind CSS'],
-    demo: 'https://https://elevate-digital-solutions.vercel.app/',
+    demo: 'https://elevate-digital-solutions.vercel.app/',
     github: 'https://github.com/safeek05/elevate-digital-solutions',
     category: 'Web App',
   },
