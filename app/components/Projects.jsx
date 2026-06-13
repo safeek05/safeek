@@ -177,6 +177,7 @@ function ProjectCard({ project, index }) {
         <div className="flex gap-3 mt-auto pt-2 border-t border-gray-100">
           <a
             href={hasDemo ? project.demo : '#'}
+            target="_blank"
             className="flex-1 inline-flex items-center justify-center gap-1.5 text-xs font-bold py-3 bg-[#2563EB] text-white rounded-xl hover:bg-[#1D4ED8] transition-all hover:shadow-lg hover:shadow-blue-500/10 active:scale-98 focus-visible:outline-none"
             aria-label={`View live demo of ${project.title}`}
           >
